@@ -24,6 +24,15 @@ int main(){
     printf("the cgpa of the student is %f\n",s2.cgpa);
 
 
+     //the most easy type of initialising structure
+    struct student s3={102,9.1,"deeksith"};
+    printf("the name of the student is %s\n",s3.name);
+    printf("the roll no of the student is %d\n",s3.roll);
+    printf("the cgpa of the student is %f\n",s3.cgpa);
+        
+    
+
+
     
     return 0;
 }
